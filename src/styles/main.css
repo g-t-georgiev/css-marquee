@@ -49,6 +49,15 @@ h1 {
 
 .marquee-description ul {
     list-style-type: none;
+    margin-bottom: .9375rem;
+}
+
+.marquee-description p {
+    font-size: 1.0625rem;
+}
+
+.marquee-description p:first-of-type {
+    margin-bottom: .4375rem;
 }
 
 .marquee-description li {
@@ -200,6 +209,10 @@ h1 {
 
     .marquee-description li {
         font-size: 1.375rem;
+    }
+
+    .marquee-description p {
+        font-size: 1.125rem;
     }
 
     .marquee-wrapper h3 {
